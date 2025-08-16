@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafetería El Grano de Oro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+
+  <div class="ImagenFondo">
+    <div class="TextoPrincipal">
+      <h1>
+        <span class="Cafe">Granito de Oro</span>: <br /><br />
+        <span class="LetraPequeña">Café que Despierta tus Sentidos</span>
+      </h1>
+      <br />
+      <h2>
+        Aroma profundo, sabor auténtico y la pasión por el café colombiano en
+        cada taza.
+      </h2>
+    </div>
+
+    <div class="video"> 
+    <iframe width="660" height="380" src="https://www.youtube.com/embed/0jIeCAOkgcQ?si=XhNaiqljUC-vf1yt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="contenedor">
+    <div class="parrafo">
+      <h3>Más que café, una experiencia</h3>
+
+      <p>
+        En Granito de Oro cada taza es un suspiro de montaña, un abrazo tibio
+        que llega en forma de aroma y sabor. Aquí el café se sirve con calma,
+        para que cada sorbo sea un momento de pausa y cada visita, un recuerdo
+        que se queda contigo.
+      </p>
+
+      <a href="#menu" class="btn-secundario">Conoce nuestro menú</a>
+    </div>
+
+    <div class="formulario">
+      <form onsubmit="event.preventDefault(); alert('Mensaje enviado. ¡Gracias por contactarnos!')">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="correo" name="correo" placeholder="name@example.com" required />
+        </div>
+
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+
+  <section id="menu" style="height: 1px;"></section>
+
+</body>
+</html>
+
